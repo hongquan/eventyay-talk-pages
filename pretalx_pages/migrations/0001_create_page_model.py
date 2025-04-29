@@ -5,7 +5,7 @@ import django.db.models.deletion
 import i18nfield.fields
 from django.db import migrations, models
 
-import pretalx.common.mixins.models
+import pretalx.common.models.mixins
 
 
 class Migration(migrations.Migration):
