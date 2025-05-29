@@ -54,6 +54,6 @@ class Migration(migrations.Migration):
             options={
                 "ordering": ["position", "title"],
             },
-            bases=(pretalx.common.mixins.models.LogMixin, models.Model),
+            bases=(pretalx.common.models.mixins.LogMixin, models.Model),
         ),
     ]
